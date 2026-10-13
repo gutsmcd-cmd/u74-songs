@@ -1,0 +1,21 @@
+{
+  "name": "u74-songs",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "歌で覚える / Study Songs — Universe 74. Turn notes into catchy memory songs, played in the browser.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.7.6"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vite-plugin-pwa": "0.21.2"
+  }
+}
