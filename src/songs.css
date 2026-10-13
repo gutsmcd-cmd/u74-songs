@@ -1,0 +1,7 @@
+textarea.tall{min-height:220px}
+.tog{display:inline-flex;gap:6px;align-items:center;font-size:.9rem;color:var(--muted)}
+.karaoke{margin:10px 0;max-height:55vh;overflow:auto;padding:4px}
+.secname{margin:.8rem 0 .2rem;color:var(--pk);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase}
+.line{margin:.25rem 0;font-size:1.25rem;line-height:1.5;color:var(--muted);transition:color .2s}
+.line.on{color:var(--ink);font-weight:700}
+.line span.sung{color:var(--cy);text-shadow:0 0 10px #5ef2ff88}
